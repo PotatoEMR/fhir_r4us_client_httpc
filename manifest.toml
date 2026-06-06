@@ -2,7 +2,7 @@
 # You typically do not need to edit this file
 
 packages = [
-  { name = "fhir_r4us", version = "0.8.0", build_tools = ["gleam"], requirements = ["gleam_http", "gleam_json", "gleam_stdlib", "gleam_time"], source = "git", repo = "https://github.com/PotatoEMR/fhir_r4us", commit = "608da6f10fc4133a809e690406fa24fd11daf808" },
+  { name = "fhir_r4us", version = "0.9.0", build_tools = ["gleam"], requirements = ["gleam_http", "gleam_json", "gleam_stdlib", "gleam_time"], source = "git", repo = "https://github.com/PotatoEMR/fhir_r4us", commit = "c20c396a053cc1a0fd8e2d478d59be05b57c139f" },
   { name = "gleam_erlang", version = "1.3.0", build_tools = ["gleam"], requirements = ["gleam_stdlib"], otp_app = "gleam_erlang", source = "hex", outer_checksum = "1124AD3AA21143E5AF0FC5CF3D9529F6DB8CA03E43A55711B60B6B7B3874375C" },
   { name = "gleam_http", version = "4.3.0", build_tools = ["gleam"], requirements = ["gleam_stdlib"], otp_app = "gleam_http", source = "hex", outer_checksum = "82EA6A717C842456188C190AFB372665EA56CE13D8559BF3B1DD9E40F619EE0C" },
   { name = "gleam_httpc", version = "5.0.0", build_tools = ["gleam"], requirements = ["gleam_erlang", "gleam_http", "gleam_stdlib"], otp_app = "gleam_httpc", source = "hex", outer_checksum = "C545172618D07811494E97AAA4A0FB34DA6F6D0061FDC8041C2F8E3BE2B2E48F" },
@@ -13,7 +13,7 @@ packages = [
 ]
 
 [requirements]
-fhir_r4us = { git = "https://github.com/PotatoEMR/fhir_r4us", ref = "608da6f10fc4133a809e690406fa24fd11daf808" }
+fhir_r4us = { git = "https://github.com/PotatoEMR/fhir_r4us", ref = "c20c396a053cc1a0fd8e2d478d59be05b57c139f" }
 gleam_http = { version = ">= 4.3.0 and < 5.0.0" }
 gleam_httpc = { version = ">= 5.0.0 and < 6.0.0" }
 gleam_json = { version = ">= 3.1.0 and < 4.0.0" }
